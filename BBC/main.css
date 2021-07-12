@@ -1,0 +1,217 @@
+<style>
+    #topbar{
+        width:1250px;
+        height:50px;
+        margin: 0 auto;
+        
+        
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    #logo{
+        margin-top: 8px;
+        width: 100px;
+        
+        float:left;
+        margin-right: 8px;
+        
+    }
+  
+    .topsection{
+        float:left;
+        border-left: 1px #CCCCCC solid;
+        
+        height:100%;
+
+    }
+    #signinimage{
+        margin: 5px;
+       width:40px;
+       height:40px;
+       float: left;
+
+    }
+    #signintext{
+        position: relative;
+        top: 14px;
+        padding-right: 25px;
+    }
+  
+    #bellbar{
+        margin :10px;
+    }
+    #belldiv{
+        float: left;
+        border-left: 1px #CCCCCC solid;
+        height: 100%;
+    }
+    .topmenu{
+        font-weight: bold;
+        font-size: 90%;
+        padding: 14px 20px;
+        height:23px;
+    }
+    #searchimg{
+        width: 25px;
+        height: 25px;
+    }
+    #searchbox{
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #e4e4e4;
+        border: none;
+        padding: 5px;
+        float: left;
+        width: 130px;
+
+    }
+    .clear{
+        clear: both;
+    }
+    .lightred{
+        width: 100%;
+        height: 70px;
+        border-top: 1px #cccccc solid;
+        background-color: #bb1919;
+        color: white;
+        
+
+
+    }
+    #menubar{
+        width:1250px;
+        margin: 0 auto;
+
+    }
+    h1{
+        padding-top: 10px;
+        margin: 0;
+        font-size: 40px;
+        font-weight: normal;
+        float: left;
+    }
+    #local{
+        border: 1px #bb4545 solid;
+        width:280px;
+       
+        float: right;
+        width: 180px;
+        padding: 8px 5px 0 10px;
+        margin: 10px 10px 0 0;
+    }
+
+    #local a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: -10px;
+font-size: 20px; 
+    }
+    #local a:hover{
+        text-decoration: underline;
+    }
+    #local img{
+        width: 25px;
+    }
+    #menubar2{
+        background-color: #a91717;
+        width: 100%;
+    }
+    #menubarcon{
+        width: 1250px;
+        margin: 0 auto;
+        height: 40px;
+    }
+    #menubarcon a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 8px;
+        padding: 0 10px;
+        border-right: 1px solid  #bb4545;
+        font-size: 17px;
+    }
+    #menubarcon a:hover{
+        text-decoration: underline;
+        
+    }
+    #pagecont{
+        width: 1250px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    h2{
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 8px;
+        border-bottom: 3px solid #a91717;
+        width: 105px;
+    }
+    h3 a{
+        color: black;
+        font-size:  30px;
+        text-decoration: none;
+
+    }
+    h3 a:hover{
+        color: #1167a8;
+    }
+    #article{
+        color: #a5a5a5;
+        width: 250px;
+        font-size: 20px;
+        float: left;
+
+    }
+    #img1{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2px;
+
+    }
+    #articlecont{
+        float: left;
+        width: 720px;
+        border-right: 1px solid #cccccc;
+        padding-right: 20px;
+    }
+    #img2{
+        width: 450px;
+        height: 300px;
+        position: relative;
+        right: -20px;
+    }
+    #hr1{
+        width: 50px;
+        border-top:1px solid #a91717;
+    }
+    .link1{
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+
+    }
+    .link1 a:hover{
+        color:crimson;
+    }
+    h4{
+        font-size: 30px;
+        font-weight: normal;
+        position: relative;
+        right: -30px;
+    }
+    .v1{
+        padding-left:20px;
+    }
+    .s1{
+        position: relative;
+        top: -100px;
+        right: -220px;
+        font-size: 15px;
+    }
+    
+</style>
