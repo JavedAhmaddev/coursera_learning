@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+
+        <title>  internal javascript </title>
+    </head>
+
+    <body>
+
+        <p id="text" > hello world!! </p>
+        <button id="mybutton"> change text </button>
+
+        <p id="text2" > javascript is  </p>
+        <button id="button2"> Append Text </button>
+
+       <p id="sometext"></p>
+       <button id="sometextbutton">add text </button>
+
+       <p id="text4" > here is some simple text </p>
+        <button id="button4"> Style Text </button>
+
+
+        <script type="text/javascript">
+
+            document.getElementById("mybutton").onclick= function(){
+                document.getElementById("text").innerHTML="hello javed";
+            }
+
+            document.getElementById("button2").onclick= function(){
+                document.getElementById("text2").innerHTML="Hello JAVED!!  " + document.getElementById("text2").innerHTML + " Awesome";
+              }
+
+              document.getElementById("sometextbutton").onclick= function(){
+                document.getElementById("sometext").innerHTML = "Hello JAVED! This text is added by pressing button"; 
+              }
+
+              document.getElementById("button4").onclick= function(){
+                document.getElementById("text4").style.color = "red";
+                document.getElementById("text4").style.fontSize = "30px";
+              }
+            
+        </script>
+   
+    </body>
+</html>
