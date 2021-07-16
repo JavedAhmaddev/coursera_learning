@@ -1,0 +1,45 @@
+<html>
+    <head>
+
+        <title> arrays </title>
+
+    </head>
+    <body>
+
+        <p> guess how many fingers am I holding up? </p>
+        <p><input type="text" id="guessmade"> </p> 
+        <button id="button1" > check</button>
+        
+
+
+        <script type="text/javascript">
+
+        function getRandomnumber(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+       
+        document.getElementById("button1").onclick = function(){
+            var min=0;
+            var max=4;
+            var randomnumber=getRandomnumber(min,max);
+            
+            var number= document.getElementById("guessmade").value;
+            if(number == randomnumber)
+            {
+                alert("correct guess");
+            }
+            else{
+                alert("wrong guess the number is "+ randomnumber);
+            }
+        }
+               
+           
+            
+
+        </script>
+
+    </body>
+
+</html>
