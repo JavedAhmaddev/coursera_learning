@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>  changing content with jquery </title>
+        <style id="text/css">
+        
+        #circle{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 50%;
+            margin: 20px;
+            
+        }
+        
+
+        </style>
+
+        <script type="text/javascript" src="jquery.min.js"> </script>
+       
+
+    </head>
+
+    <body>
+        <div id="circle"></div>
+        <p> this is some text </p>
+        <iframe src="http://www.cnn.com"></iframe>
+        <script type="text/javascript">
+    
+            $("#circle").click(function(){
+                $("p").html("this text has changed after clicking circle");
+                alert($("p").html());    // .html == innerhtml
+            });
+
+            // changing content with hover option
+            $("#circle").hover(function(){
+                $("iframe").attr("src","https://ecowebhosting.co.uk");
+            });
+
+           
+
+        </script>
+        
+    </body>
+</html>
