@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>  fadeout with jquery </title>
+        <style id="text/css">
+        
+        #circle{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 50%;
+            margin: 20px;
+            float: left;
+        }
+        .reactangle{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 20px;
+            float: left;
+        }
+        
+
+        </style>
+
+        <script type="text/javascript" src="jquery.min.js"> </script>
+       
+
+    </head>
+
+    <body>
+        <div id="circle"></div>
+        <div class="reactangle"></div>
+        <div class="reactangle"></div>
+
+        <script type="text/javascript">
+           
+
+            
+            $("div").click(function(){
+               //$(this).fadeOut();
+               $(this).fadeOut("slow", function(){
+                   alert("fadout complete");
+               });
+            });
+           
+
+        </script>
+        
+    </body>
+</html>
