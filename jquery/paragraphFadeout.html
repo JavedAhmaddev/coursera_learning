@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>  fadeout with jquery </title>
+        <style id="text/css">
+        
+        
+        
+
+        </style>
+
+        <script type="text/javascript" src="jquery.min.js"> </script>
+       
+
+    </head>
+
+    <body>
+       <p>this is some text</p> 
+       <button id="bt">toggle text</button>
+        <script type="text/javascript">
+         $("#bt").click(function(){
+
+          
+            if($("p").css("display") == "none")
+            {
+                $("p").fadeIn("slow");
+            }
+            else{
+                $("p").fadeOut("slow");
+            }
+           
+        });
+        </script>
+        
+    </body>
+</html>
