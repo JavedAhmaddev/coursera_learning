@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE WITH jQUERY</title>
+    
+     <script type="text/javascript" src="jquery.min.js"> </script>
+</head>
+<body>
+    
+    <script type="text/javascript">
+      var regex = /is/;
+      var str =" everythimg is great";
+      var result1=str.match(regex);
+      alert(result1);
+        // case insesitive with i
+      var regex2 = /great/i;    
+      var str2 =" everything is GreAT";
+      var result2=str2.match(regex2);
+      alert(result2);
+        // case insentive and instances of regex3
+      var regex3 = /e/gi;
+      var str3 =" everything is grEat";
+      var result3=str3.match(regex3);
+      alert(result3);
+    </script>
+</body>
+</html>
