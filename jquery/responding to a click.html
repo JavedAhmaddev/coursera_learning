@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>  Jquery to respond a click </title>
+        <style id="text/css">
+        
+        #circle{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 50%;
+            margin: 20px;
+            float: left;
+        }
+        .reactangle{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 20px;
+            float: left;
+        }
+
+        </style>
+
+        <script type="text/javascript" src="jquery.min.js"> </script>
+       
+
+    </head>
+
+    <body>
+        <div id="circle">
+            
+        </div>
+        <div class="reactangle"></div>
+        <div class="reactangle"></div>
+        <script type="text/javascript">
+    
+            $("#circle").click(function(){
+                alert("circle was clicked")
+            });
+            $(".reactangle").click(function(){
+                alert("Reactangle was clicked")
+            });
+            $("div").click(function(){
+                alert(" A DIV was clicked")
+            });
+
+        </script>
+        
+    </body>
+</html>
