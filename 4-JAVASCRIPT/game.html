@@ -26,13 +26,21 @@
             var randomnumber=getRandomnumber(min,max);
             
             var number= document.getElementById("guessmade").value;
-            if(number == randomnumber)
+            if(number>4 || number<0)
             {
-                alert("correct guess");
+                alert("enter a valid choice between 0-4")
             }
             else{
-                alert("wrong guess the number is "+ randomnumber);
+                
+                if(number == randomnumber)
+                {
+                    alert("correct guess");
+                }
+                else{
+                    alert("wrong guess the number is "+ randomnumber);
+                }
             }
+            
         }
                
            
