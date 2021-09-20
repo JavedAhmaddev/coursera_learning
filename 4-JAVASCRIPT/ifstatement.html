@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+        <title> arrays </title>
+
+    </head>
+    <body>
+
+        <p> enter the specific magic word:
+        <input type="text" id="magicword"> </p>
+        <button id="button1" > Submit</button>
+        
+
+
+        <script type="text/javascript">
+       
+        document.getElementById("button1").onclick = function(){
+            var word;
+            word=document.getElementById("magicword").value;
+            if(word == "magic")
+            {
+                alert(" Accepted");
+            }
+            else{
+                alert("Not Accepted")
+            }
+        }
+        
+               
+           
+            
+
+        </script>
+
+    </body>
+
+</html>
